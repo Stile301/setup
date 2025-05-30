@@ -1,0 +1,120 @@
+* {
+  font-family: JetbrainsMono Nerd Font;
+  font-size: 14px;
+  min-height: 0;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 0px;
+}
+
+#waybar {
+  background: transparent;
+  color: #c6d0f5;
+}
+
+tooltip {
+  background: #232634;
+}
+
+#workspaces,
+#tray,
+#clock,
+#privacy,
+#pulseaudio,
+#battery,
+#upower,
+#network,
+#cpu,
+#memory {
+  background: #232634;
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+
+
+/* workspace */
+#workspaces button {
+  margin: 5px;
+  padding: 2px;
+  color: #c6d0f5;
+  border: none;
+}
+
+#workspaces button.active {
+  color: #ef9f76;
+}
+
+#workspaces button:hover {
+  background: #303446;
+  border: none;
+}
+
+/* workspace end */
+
+/* tray */
+#tray menu {
+  background: #232634;
+  color: #c6d0f5;
+}
+
+/* tray end */
+
+/* privacy */
+#privacy {
+  color: #81c8be;
+}
+
+#privacy-item {
+  color: #81c8be;
+}
+
+/* privacy end */
+
+/* clock */
+#clock {
+  color: #f2d5cf;
+}
+
+/* clock end */
+
+/* pulseaudio */
+#pulseaudio {
+  color: #eebebe;
+}
+
+/* pulseaudio end */
+
+/* battery */
+#battery {
+  color: #a6d189;
+}
+
+/* battery end */
+
+/* upower */
+#upower {
+  color: #a6d189;
+}
+
+/* upower end */
+
+/* network */
+#network {
+  color: #f4b8e4;
+}
+
+/* network end */
+
+/* cpu */
+#cpu {
+  color: #ca9ee6;
+}
+
+/* cpu end */
+
+/* memory */
+#memory {
+  color: #ea999c;
+}
+
+/* memmory end */
