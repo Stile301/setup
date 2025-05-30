@@ -1,0 +1,61 @@
+*{
+    font:                        "JetBrains Mono Nerd Font 64";
+}
+
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  true;
+    cursor:                      "default";
+    background-image: url("~/wallpapers/wallpaper-gta.png");
+}
+
+mainbox {
+    enabled:                     true;
+    spacing:                     150px;
+    margin:                      0px 350px;
+    background-color:            transparent;
+    children:                    [ "dummy", "listview","dummy" ];
+}
+
+dummy{
+    background-color:            transparent;
+
+}
+
+listview {
+    enabled:                     true;
+    expand:                      false;
+    columns:                     5;
+    lines:                       1;
+    spacing:                     120px;
+    background-color:            transparent;
+    cursor:                      "default";
+}
+
+element {
+    padding:                     20px;
+    enabled:                     true;
+    border-radius:               100%;
+    background-color:          rgba(255, 255, 255, 0.33);
+    cursor:                      pointer;
+}
+
+element-text {
+    background-color:           transparent;
+    text-color:               #feec73;
+    cursor:                     pointer;
+}
+element-icon {
+    background-color:           transparent;
+    cursor:                     pointer;
+}
+element selected.normal {
+    background-color:       #34436288;
+    cursor:                      pointer;
+}
+element-text selected.normal {
+    text-color:                  #f07b50;
+    cursor:                      pointer;
+}
